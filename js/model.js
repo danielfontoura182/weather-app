@@ -3,7 +3,7 @@ import { API_KEY } from './config.js'
 async function getData(city) {
   try {
     const res = await fetch(
-      `http://api.weatherapi.com/v1/forecast.json?key=69df825187c840dc9df132224212407&q=${city}&days=7`
+      `https://api.weatherapi.com/v1/forecast.json?key=69df825187c840dc9df132224212407&q=${city}&days=7`
     )
     const data = await res.json()
 
