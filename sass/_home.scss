@@ -55,11 +55,7 @@ body {
   font-family: inherit;
   color: $color-main-white;
   outline: none;
-  background-image: linear-gradient(
-    to right,
-    rgba($color-secondary-dark, 1),
-    rgba($color-primary-light, 1)
-  );
+  background: $color-primary-dark;
   padding: 0.5rem;
   border: none;
   align-self: flex-end;
