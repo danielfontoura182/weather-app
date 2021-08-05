@@ -5,6 +5,8 @@ The purpose of doing this project was to practice DOM manipulation,
 JavaScript asynchronus features and programming logic. 
 **Object-oriented programming** (OOP) used as paradigm.
 
+See in action [here](https://danielfontoura-weather-app.netlify.app/)
+
 ## Short Description 
 
 **Weather App** displays the city/region name, when the weather data was last updated, 
