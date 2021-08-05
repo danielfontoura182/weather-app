@@ -1,3 +1,5 @@
+import { API_KEY } from './config.js'
+
 async function getData(city) {
   try {
     const res = await fetch(
@@ -19,8 +21,7 @@ async function getCurrentLocationData(lat, long) {
       {
         method: 'GET',
         headers: {
-          'x-rapidapi-key':
-            'a123bf2cb2mshd5fa2af593ef59ap120794jsn6fe472401051',
+          'x-rapidapi-key': `${API_KEY}`,
           'x-rapidapi-host': 'wft-geo-db.p.rapidapi.com',
         },
       }
