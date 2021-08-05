@@ -1,0 +1,26 @@
+.heading-primary {
+  font-size: 4rem;
+}
+
+.title--weather,
+.title--app {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.title--weather {
+  background-image: linear-gradient(
+    to right,
+    $color-secondary-light,
+    $color-secondary-dark
+  );
+}
+
+.title--app {
+  background-image: linear-gradient(
+    to right,
+    $color-primary-light,
+    $color-primary-dark
+  );
+}

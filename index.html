@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <script type="module" defer src="./js/controller.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="heading-primary">
+        <span class="title--weather">Weather</span>
+        <span class="title--app">App</span>
+      </h1>
+      <form action="" class="search-form">
+        <input type="text" class="search" placeholder="Search city" />
+        <button type="submit" class="search__button">
+          <svg class="search__icon">
+            <use xlink:href="./sprite.svg#icon-search"></use>
+          </svg>
+        </button>
+      </form>
+      <select name="degrees" id="degrees-option">
+        <option value="f">Fahrenheit</option>
+        <option value="c">Celsius</option>
+      </select>
+    </header>
+    <div class="container">
+      <!-- 
+
+<div class="weather-container">
+        <div class="weather-container__city">Rio de Janeiro</div>
+        <div class="weather-container__last-update">Last update: 10:12</div>
+        <img
+          src="https://cdn.weatherapi.com/weather/64x64/day/113.png"
+          alt="weather icon"
+          class="weather-container__icon"
+        />
+        <div class="weather-container__bottom">
+          <div class="weather-container__temperature">3°</div>
+          <div class="weather-container__humidity-wind">
+            <div class="weather-container__humidity">Humidity: 55%</div>
+            <div class="weather-container__wind">
+              Wind: 16km/h <span class="wind-mph">(10mph)</span>
+            </div>
+          </div>
+        </div>
+        <div class="weather-container__info-days">
+          <div class="weather-container__today">
+            <ul class="weather-container__info-list">
+              <li>Today</li>
+              <li>Max: 31°</li>
+              <li>Min: 19°</li>
+              <li>
+                Sun
+                <img
+                  src="https://cdn.weatherapi.com/weather/64x64/day/113.png"
+                  alt="weather icon"
+                  class="weather-container__small-icon"
+                />
+              </li>
+            </ul>
+          </div>
+          <div class="weather-container__tomorrow">
+            <ul class="weather-container__info-list">
+              <li>26/07/2021</li>
+              <li>Max: 31°</li>
+              <li>Min: 19°</li>
+              <li>
+                Moderate Rain
+                <img
+                  src="https://cdn.weatherapi.com/weather/64x64/day/302.png"
+                  alt="weather icon"
+                  class="weather-container__small-icon"
+                />
+              </li>
+            </ul>
+          </div>
+          <div class="weather-container__two-days">
+            <ul class="weather-container__info-list">
+              <li>27/07/2021</li>
+              <li>Max: 31°</li>
+              <li>Min: 19°</li>
+              <li>
+                Moderate Rain
+                <img
+                  src="https://cdn.weatherapi.com/weather/64x64/day/302.png"
+                  alt="weather icon"
+                  class="weather-container__small-icon"
+                />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      -->
+    </div>
+    <footer class="footer">
+      <p class="powered">Powered by Weather Api (weatherapi.com)</p>
+      <p class="made">
+        <span class="copy-year">2021</span>&copy; Daniel Fontoura - All rights
+        reserved
+      </p>
+    </footer>
+  </body>
+</html>
