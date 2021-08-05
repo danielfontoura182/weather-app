@@ -7,7 +7,6 @@ async function getData(city) {
     )
     const data = await res.json()
 
-    console.log(data)
     return data
   } catch (err) {
     throw err
@@ -29,7 +28,6 @@ async function getCurrentLocationData(lat, long) {
 
     const data = await res.json()
 
-    console.log(data)
     return data
   } catch (err) {
     throw err

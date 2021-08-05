@@ -34,12 +34,10 @@ function controlSubmittedCity() {
 async function controlCurrentLocationForecast(position) {
   latitude = position.coords.latitude
   longitude = position.coords.longitude
-  console.log(latitude, longitude)
 
   //render spinner (while getting api data)
   containerView.renderSpinner()
 
-  console.log(latitude, longitude)
   await model.loadCurrentLocationData(latitude, longitude)
   containerView.render(model.state)
 }
@@ -51,14 +49,12 @@ async function controlForecast(city) {
   await model.loadData(city)
   const degree = document.getElementById('degrees-option').value
   containerView.render(model.state, degree)
-  console.log(model.state)
 }
 
 function init() {
   containerView.handleHandler(getCurrentLocation())
   controlSubmittedCity()
   controlInputDegrees()
-  console.log(window.navigator.language)
 }
 
 init()
