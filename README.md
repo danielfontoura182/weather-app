@@ -25,6 +25,7 @@ It is possible to search by city or region name and select Fahrenheit or Celsius
 
 ## API
 
-In this project an API called [Weather API](https://weatherapi.com/) was used.
-
+In this project, the follow APIs were used:
+- [Weather API](https://weatherapi.com/)
+- [GeoDB Cities API](http://geodb-cities-api.wirefreethought.com/) via [RapidAPI](https://rapidapi.com/wirefreethought/api/geodb-cities/)
 
