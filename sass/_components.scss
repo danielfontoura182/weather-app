@@ -9,6 +9,10 @@
   position: absolute;
   top: 50%;
   left: 45%;
+
+  @include respond(phone) {
+    left: 38%;
+  }
 }
 
 @keyframes spin {
